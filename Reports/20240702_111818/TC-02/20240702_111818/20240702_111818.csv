@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC-02,,,,02-07-2024 11:18:44,02-07-2024 11:20:07,"1m - 23,735s",PASSED
+,,,,,,,
+Test Cases/TestCase-02,,,,02-07-2024 11:18:44,02-07-2024 11:20:07,"1m - 23,522s",PASSED
+"callTestCase(findTestCase(""OpenApp""), [:], STOP_ON_FAILURE)",,,,02-07-2024 11:18:44,02-07-2024 11:19:44,"59,502s",PASSED
+"callTestCase(findTestCase(""TC-02/AksesMenu_Login""), [:], STOP_ON_FAILURE)",,,,02-07-2024 11:19:44,02-07-2024 11:19:51,"6,798s",PASSED
+"callTestCase(findTestCase(""TC-02/Login""), [:], STOP_ON_FAILURE)",,,,02-07-2024 11:19:51,02-07-2024 11:20:07,"16,858s",PASSED

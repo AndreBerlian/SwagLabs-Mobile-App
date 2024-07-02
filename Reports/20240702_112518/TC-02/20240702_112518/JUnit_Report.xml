@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC-02" time="66.455" tests="1" failures="0" errors="0">
+   <testsuite name="TC-02" tests="1" failures="0" errors="0" time="66.455" skipped="0" timestamp="02-07-2024T11:25:51" hostname="1331 - LAPTOP-LAHGLE5C" id="Test Suites/TC-02">
+      <properties>
+         <property name="deviceName" value="vivo vivo 1901 (Android 11)"/>
+         <property name="devicePlatform" value="Android"/>
+         <property name="logFolder" value="C:\\Users\\1331\\Katalon Studio\\SwagLabs Mobile App\\Reports\\20240702_112518\\TC-02\\20240702_112518"/>
+         <property name="logFiles" value="C:\\Users\\1331\\Katalon Studio\\SwagLabs Mobile App\\Reports\\20240702_112518\\TC-02\\20240702_112518\\appium.log, C:\\Users\\1331\\Katalon Studio\\SwagLabs Mobile App\\Reports\\20240702_112518\\TC-02\\20240702_112518\\appium_error.log, C:\\Users\\1331\\Katalon Studio\\SwagLabs Mobile App\\Reports\\20240702_112518\\TC-02\\20240702_112518\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-Open App Success.png, keyes\keyes-Side Menu.png, keyes\keyes-Page Login.png, keyes\keyes-Page Login (Filled).png, keyes\keyes-Login Success.png"/>
+         <property name="hostName" value="1331 - LAPTOP-LAHGLE5C"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.10.3&quot;}}}"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.10.3"/>
+         <property name="deviceModel" value="vivo 1901"/>
+         <property name="hostAddress" value="192.168.56.2"/>
+         <property name="deviceManufacturer" value="vivo"/>
+         <property name="deviceId" value="5XU8H68XKNNZMJCY"/>
+         <property name="deviceName" value="vivo vivo 1901 (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/TestCase-02" time="66.287" classname="Test Cases/TestCase-02" status="PASSED">
+         <system-out><![CDATA[02-07-2024T11:25:51 - [TEST_CASE][PASSED] - Test Cases/TestCase-02: Test Cases/TestCase-02
+
+02-07-2024T11:25:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OpenApp"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OpenApp' successfully
+
+02-07-2024T11:25:52 - [TEST_CASE][PASSED] - Test Cases/OpenApp: Test Cases/OpenApp
+
+02-07-2024T11:25:52 - [TEST_STEP][PASSED] - startApplication("C:\Users\1331\Downloads\Android-MyDemoAppRN.1.3.0.build-244.apk", true): Started application: 'C:\Users\1331\Downloads\Android-MyDemoAppRN.1.3.0.build-244.apk'
+
+02-07-2024T11:25:52 - [MESSAGE][INFO] - Starting application: 'C:\Users\1331\Downloads\Android-MyDemoAppRN.1.3.0.build-244.apk'
+
+02-07-2024T11:25:52 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+02-07-2024T11:26:03 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+02-07-2024T11:26:03 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\1331\.appium
+
+02-07-2024T11:26:03 - [MESSAGE][INFO] - appium outlog: C:\Users\1331\Katalon Studio\SwagLabs Mobile App\Reports\20240702_112518\TC-02\20240702_112518\appium.log
+
+02-07-2024T11:26:03 - [MESSAGE][INFO] - appium errlog: C:\Users\1331\Katalon Studio\SwagLabs Mobile App\Reports\20240702_112518\TC-02\20240702_112518\appium_error.log
+
+02-07-2024T11:26:06 - [MESSAGE][INFO] - Appium server started on port 60.226
+
+02-07-2024T11:26:29 - [MESSAGE][PASSED] - Started application: 'C:\Users\1331\Downloads\Android-MyDemoAppRN.1.3.0.build-244.apk'
+
+02-07-2024T11:26:29 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("label_Products"), 0): Element 'Object Repository/label_Products' is present
+
+02-07-2024T11:26:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-07-2024T11:26:31 - [MESSAGE][PASSED] - Element 'Object Repository/label_Products' is present
+
+02-07-2024T11:26:31 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Open App Success", STOP_ON_FAILURE): Screenshot is taken
+
+02-07-2024T11:26:33 - [MESSAGE][INFO] - 0 hidden object(s)
+
+02-07-2024T11:26:33 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Open App Success.png]]
+
+02-07-2024T11:26:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OpenApp' successfully
+
+02-07-2024T11:26:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC-02/AksesMenu_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC-02/AksesMenu_Login' successfully
+
+02-07-2024T11:26:33 - [TEST_CASE][PASSED] - Test Cases/TC-02/AksesMenu_Login: Test Cases/TC-02/AksesMenu_Login
+
+02-07-2024T11:26:33 - [TEST_STEP][PASSED] - tap(findTestObject("button_HamburgerMenu"), 0): Tapped on element 'Object Repository/button_HamburgerMenu'
+
+02-07-2024T11:26:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-07-2024T11:26:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/button_HamburgerMenu'
+
+02-07-2024T11:26:34 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Side Menu", STOP_ON_FAILURE): Screenshot is taken
+
+02-07-2024T11:26:36 - [MESSAGE][INFO] - 0 hidden object(s)
+
+02-07-2024T11:26:36 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Side Menu.png]]
+
+02-07-2024T11:26:36 - [TEST_STEP][PASSED] - tap(findTestObject("menu_LogIn"), 0): Tapped on element 'Object Repository/menu_LogIn'
+
+02-07-2024T11:26:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-07-2024T11:26:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/menu_LogIn'
+
+02-07-2024T11:26:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Login/label_CaptionLogin"), 0): Element 'Object Repository/Page_Login/label_CaptionLogin' is present
+
+02-07-2024T11:26:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-07-2024T11:26:39 - [MESSAGE][PASSED] - Element 'Object Repository/Page_Login/label_CaptionLogin' is present
+
+02-07-2024T11:26:39 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Page Login", STOP_ON_FAILURE): Screenshot is taken
+
+02-07-2024T11:26:40 - [MESSAGE][INFO] - 0 hidden object(s)
+
+02-07-2024T11:26:40 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Page Login.png]]
+
+02-07-2024T11:26:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC-02/AksesMenu_Login' successfully
+
+02-07-2024T11:26:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC-01/Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/TC-01/Login' successfully
+
+02-07-2024T11:26:40 - [TEST_CASE][PASSED] - Test Cases/TC-01/Login: Test Cases/TC-01/Login
+
+02-07-2024T11:26:40 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_Username"), "bob@example.com", 0): Text 'bob@example.com' has been set to element 'Object Repository/Page_Login/input_Username'
+
+02-07-2024T11:26:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-07-2024T11:26:42 - [MESSAGE][PASSED] - Text 'bob@example.com' has been set to element 'Object Repository/Page_Login/input_Username'
+
+02-07-2024T11:26:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Login/input_Password"), "dbXIBZ66cuht4KTRMDozZw==", 0): Encrypted text 'dbXIBZ66cuht4KTRMDozZw==' has been set to element 'Object Repository/Page_Login/input_Password'
+
+02-07-2024T11:26:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-07-2024T11:26:43 - [MESSAGE][PASSED] - Encrypted text 'dbXIBZ66cuht4KTRMDozZw==' has been set to element 'Object Repository/Page_Login/input_Password'
+
+02-07-2024T11:26:43 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+02-07-2024T11:26:46 - [MESSAGE][PASSED] - Keyboard is hidden
+
+02-07-2024T11:26:46 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+02-07-2024T11:26:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+02-07-2024T11:26:49 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Page Login (Filled)", STOP_ON_FAILURE): Screenshot is taken
+
+02-07-2024T11:26:50 - [MESSAGE][INFO] - 0 hidden object(s)
+
+02-07-2024T11:26:51 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Page Login (Filled).png]]
+
+02-07-2024T11:26:51 - [TEST_STEP][PASSED] - tap(findTestObject("Page_Login/button_Login"), 0): Tapped on element 'Object Repository/Page_Login/button_Login'
+
+02-07-2024T11:26:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-07-2024T11:26:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Page_Login/button_Login'
+
+02-07-2024T11:26:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("label_Products"), 0): Element 'Object Repository/label_Products' is present
+
+02-07-2024T11:26:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-07-2024T11:26:52 - [MESSAGE][PASSED] - Element 'Object Repository/label_Products' is present
+
+02-07-2024T11:26:52 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Login Success", STOP_ON_FAILURE): Screenshot is taken
+
+02-07-2024T11:26:54 - [MESSAGE][INFO] - 0 hidden object(s)
+
+02-07-2024T11:26:54 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-Login Success.png]]
+
+02-07-2024T11:26:54 - [TEST_STEP][PASSED] - delay(0, STOP_ON_FAILURE): Delayed 0 second(s)
+
+02-07-2024T11:26:54 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+02-07-2024T11:26:54 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+02-07-2024T11:26:57 - [MESSAGE][PASSED] - Close app successfully
+
+02-07-2024T11:26:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC-01/Login' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-07-2024T11:25:51 - [TEST_SUITE][PASSED] - TC-02: Test Cases/TestCase-02]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
